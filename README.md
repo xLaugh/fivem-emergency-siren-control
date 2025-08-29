@@ -1,24 +1,35 @@
-# Emergency Siren Control
+# Emergency Siren Control - V2
 
-An emergency siren control system for FiveM based on native methods
+Un système de contrôle des sirènes d'urgence pour FiveM basé sur des méthodes natives, entièrement synchronisé et optimisé.
 
-## Features
+## 🚀 Améliorations de cette version
 
- - Allows you to toggle emergency sirens on / off while the lights are enabled.
- - Utilizies instructional buttons
+- **Synchronisation complète** : Les sirènes sont synchronisées entre tous les joueurs en temps réel
+- **Compatible avec tous les frameworks** : Fonctionne avec ESX, QBCore, vRP, Standalone et tous les autres frameworks
+- **Performance optimisée** : Code optimisé pour des performances maximales
+- **Gestion intelligente** : Seuls les conducteurs peuvent contrôler les sirènes
 
-## Installation
+## 📦 Installation
 
-1. Place the included `emergency-siren-control` folder in your FXServer's resources folder
-2. Add `ensure emergency-siren-control` to your server config
+1. Placez le dossier `emergency-siren-control` dans le dossier resources de serveur
+2. Ajoutez `ensure emergency-siren-control` à votre configuration serveur
+3. Redémarrez votre serveur
 
-## Dependencies
+## 🔧 Dépendances
 
 [Instructional Buttons](https://github.com/glitchdetector/fivem-instructional-buttons)
 
-## Credits
+## 🎮 Utilisation
 
-Originally created for **Transport Tycoon** by **glitchdetector**
+- Montez dans un véhicule d'urgence en tant que conducteur
+- Activez les gyrophares
+- Appuyez sur la touche **Caméra Cinématique** pour activer/désactiver les sirènes
+- Les sirènes se synchronisent automatiquement avec tous les joueurs
 
-Entity enumerator by **IllidanS4**
+## 📝 Crédits
 
+Version originale créée pour **Transport Tycoon** par **glitchdetector**
+
+Entity enumerator par **IllidanS4**
+
+Version améliorée et synchronisée par **xLaugh**
